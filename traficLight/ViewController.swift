@@ -18,18 +18,18 @@ class ViewController: UIViewController {
     @IBOutlet weak var yellowLight: UIView!
     @IBOutlet weak var greenLight: UIView!
     @IBOutlet weak var startVar: UIButton!
-    var signal = Colors.red
+    private var signal = Colors.red
 
 
     override func viewDidLoad() {
         super.viewDidLoad()
-    redLight.layer.cornerRadius = 70
-    yellowLight.layer.cornerRadius = 70
-    greenLight.layer.cornerRadius = 70
-        startVar.layer.cornerRadius = 15
-    redLight.alpha = 0.3
-    yellowLight.alpha = 0.3
-    greenLight.alpha = 0.3
+            redLight.layer.cornerRadius = 70
+            yellowLight.layer.cornerRadius = 70
+            greenLight.layer.cornerRadius = 70
+            startVar.layer.cornerRadius = 15
+            redLight.alpha = 0.3
+            yellowLight.alpha = 0.3
+            greenLight.alpha = 0.3
         
     }
     @IBAction func StartPressed() {
